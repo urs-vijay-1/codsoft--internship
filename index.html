@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Cycle - Rent a Perfect Bike</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="bodyb">
+    <nav class="navbar">
+        <div class="logo">URBAN CYCLE</div>
+        <div class="nav-links">
+            <a href="#about">About us</a>
+            <a href="#rent">Rent a bike</a>
+            <a href="#faq">FAQ</a>
+        </div>
+        <div class="search-icon" onclick="alertSearch()">🔍</div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-text">
+            <h1>RENT A PERFECT<br>BIKE FOR YOUR RIDE</h1>
+            <button class="explore-btn">Explore ➔</button>
+        </div>
+        <div class="hero-image">
+            <img id="bikeImage" src="/scooty.png" alt="Electric Bike">
+        </div>
+    </header>
+
+    <section class="categories">
+        <ul>
+            <li onclick="changeCategory('electric')" id="electric">Electric Bikes</li>
+            <li onclick="changeCategory('road')" id="road">Road Bikes</li>
+            <li onclick="changeCategory('mountain')" id="mountain">Mountain Bikes</li>
+        </ul>
+    </section>
+
+    <section class="statistics">
+        <div class="stat">
+            <h2>52k+</h2>
+            <p>customers</p>
+        </div>
+        <div class="stat">
+            <h2>202k+</h2>
+            <p>kilometers</p>
+        </div>
+        <div class="stat">
+            <h2>175</h2>
+            <p>bike models</p>
+        </div>
+        <div class="stat">
+            <h2>38</h2>
+            <p>cities</p>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
